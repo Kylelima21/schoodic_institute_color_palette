@@ -1,6 +1,9 @@
-library(palmerpenguins)
-library(tidyverse)
-source("schoodic_palette_ggplot.R")
+### A guide to using the schoodic_palette_ggplot functions in ggplot2
+
+
+## Download the palette package
+devtools::install_github("Kylelima21/schoodicPalette")
+library(schoodicPalette)
 
 
 
@@ -45,7 +48,13 @@ scales::show_col(schoodic_palette("complimentary"), cex_label = 2)
 
 ### Here are some examples in ggplot
 
-## First read in dataset to use in examples
+
+## Call required packages
+library(palmerpenguins)
+library(tidyverse)
+
+
+## Then read in dataset to use in examples
 penguins <- palmerpenguins::penguins
 
 
