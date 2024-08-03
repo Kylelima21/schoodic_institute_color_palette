@@ -1,0 +1,1 @@
+# schoodic_institute_color_palette
